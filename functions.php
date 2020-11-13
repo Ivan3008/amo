@@ -1,3 +1,5 @@
+<?php
+
 function awAddAmoLead($order_id, $order = null)
 {
     if ('yes' != get_option('aw-amo-active'))
